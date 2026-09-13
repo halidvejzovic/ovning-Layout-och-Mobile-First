@@ -4,6 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid brown;
 }
 
 body > div {
@@ -22,18 +23,18 @@ header{
 nav > ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    list-style: none;
-    gap: 2rem;
-    
-    
+
+    li{
+        background-color: brown;
+        border: 2px solid black;
+        height: 30px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
 }
 
-li {
-    border: 2px solid black;
-    height: 30px;
-    width: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
