@@ -1,7 +1,7 @@
 body{
     width: 50vw;
     height: 100vh;
-    margin: 0 auto;
+    
    
 
     display: flex;
@@ -63,7 +63,7 @@ ul{
 li{
     border: 2px solid black;
     height: 30px;
-    width: 110px;
+    width: 40vw;
 
     display: flex;
     justify-content: center;
@@ -76,6 +76,9 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid black;
+    height: 55vh;
+    width: 40vw;
 }
 
 footer{
