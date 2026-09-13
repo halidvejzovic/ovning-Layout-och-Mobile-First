@@ -1,8 +1,32 @@
 body > div {
     display: grid;
-    grid-template-columns: 1fr;
+    justify-content: center;
+    grid-template-columns: 400px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    border: 2px solid black;
+    height: 30px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
