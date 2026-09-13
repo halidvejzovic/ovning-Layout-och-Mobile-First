@@ -5,7 +5,11 @@ body > div {
 }
 
 header{
-    grid-column: 2/3;
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
 }
 
-nav
+nav{
+
+}}
