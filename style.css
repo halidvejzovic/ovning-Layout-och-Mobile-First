@@ -1,16 +1,27 @@
 body{
-
+    width: 50vw;
     height: 100vh;
+    margin: 0 auto;
+
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid brown;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
 }
 
 body > div {
     display: grid;
-    grid-template-columns: 70vw;
+
     grid-template-rows: 0.5fr 1fr 3fr 0.5fr;
+    place-items: center;
+
+   
+    
 
 }
 
@@ -27,7 +38,7 @@ ul{
     grid-template-rows: 1fr 1fr 1fr;
     place-items: center;
 
-    
+    border-bottom: 2 solid black;
     list-style: none;
     padding:0;
     margin: 0;
@@ -37,6 +48,7 @@ li{
         border: 2px solid black;
         height: 30px;
         width: 110px;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -50,5 +62,10 @@ main{
     align-items: center;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
