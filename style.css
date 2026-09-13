@@ -2,6 +2,7 @@ body{
     width: 100vw;
     height: 100vh;
     
+    
     display: flex;
     align-items: center;
     
@@ -13,15 +14,16 @@ body{
 
 section{
     background-color: grey;
-    width:50%;
+    width:40%;
     height: 100%;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
+    
 }
 
 body> section> div {
     display: grid;
-    grid-template-rows: 0.5fr 1fr 3fr 0.5fr;
+    grid-template-rows: 0.5fr 1fr 4fr 0.5fr;
     place-items: center;
 
     border: 2px solid grey;
@@ -39,7 +41,7 @@ header{
 
 
     border: 2px solid grey;
-    height: 50%;
+    height: 100%;
     width: 100%;
 }
 
@@ -50,10 +52,13 @@ ul{
 
     list-style: none;
     padding: 0;
+    border: 2px solid grey;
+    height: 100%;
+    width: 100%;
 }
 
 li{
-    border: 2px solid grey;
+    border-bottom: 2px solid grey;
 
     display: flex;
     justify-content: center;
