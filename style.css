@@ -11,5 +11,6 @@ header{
 }
 
 nav{
-    grid-column: 
-}}
+    grid-column: 1/2;
+
+}
