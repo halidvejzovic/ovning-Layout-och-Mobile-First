@@ -4,3 +4,8 @@ body > div {
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
+header{
+    grid-column: 2/3;
+}
+
+nav
