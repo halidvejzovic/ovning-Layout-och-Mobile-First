@@ -9,8 +9,9 @@ body{
 
 body > div {
     display: grid;
-    grid-template-columns: 400px;
+    grid-template-columns: 70vw;
     grid-template-rows: 0.5fr 1fr 3fr 0.5fr;
+
 }
 
 
@@ -18,22 +19,35 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid grey;
 }
 
-nav > ul{
+ul{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    place-items: center;
 
-    li{
-        background-color: brown;
+    
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+
+li{
         border: 2px solid black;
         height: 30px;
-        width: 100px;
+        width: 110px;
         display: flex;
         justify-content: center;
         align-items: center;
-        list-style: none;
+        
+        
     }
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
